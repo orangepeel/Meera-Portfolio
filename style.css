@@ -1,0 +1,61 @@
+.full-width
+{
+  height: 50px;
+  width: 100%;
+}
+
+.nav-size
+{
+  font-size: 1em;
+  white-space: nowrap;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #0C14E3 !important;
+}
+
+.sky{
+
+  background-color: darkgray;
+
+}
+
+.jumbo-align
+{
+  text-align: center
+ 
+}
+
+.button-align
+{
+  text-align: center
+}
+
+.column
+{
+  display: left
+  
+  
+}
+.row
+{
+  
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+
+}
+
+.card
+{
+  margin: 20px;
+    padding: 20px;
+}
+
+
+.card-text
+{
+  max-lines: 2;
+}
+
+
+
