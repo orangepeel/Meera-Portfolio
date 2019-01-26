@@ -59,8 +59,9 @@
 
 }
 
-.card
+.my-card
 {
+  width:480px;
   margin: 20px;
   padding: 20px;
 }
