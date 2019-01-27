@@ -100,14 +100,14 @@ body
 
   .my-iframe
 {
-  transform: scale(0.5);
+  transform: scale(.6);
   left: -88px;
   top: -200px;
   position: relative;
 }
 
-#iframe-container {
-
+div#iframe-container {
+  height: 528px;
 }
 }
 
