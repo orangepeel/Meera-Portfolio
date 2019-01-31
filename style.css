@@ -12,8 +12,15 @@ margin: 0px;
   }
 .my-jumbo
 {
+  background-color: #F2F2F2;
   padding: 0px;
   margin: 0px;
+}
+
+.my-header
+{
+  color: #f1693c;
+  /* color:#FF4D09; */
 }
 .nav-size
 {
@@ -23,7 +30,9 @@ margin: 0px;
 
    .nav-link
    {
-     color: #FDB81E !important;
+
+    /* color: #f1693c !important; */
+     color:#FF4D09 !important;
    }
 
    .my-email
@@ -55,7 +64,7 @@ color: #FFCC00;
 
 .sky
 {
- background-color: #000000;
+ background-color: #F9F8F6;
  
  }
 
@@ -84,7 +93,7 @@ outline: none;
 
 .jumbo-align
 {
-   
+   /* background-color: #F2F2F2; */
     text-align: center
  
 }
@@ -145,7 +154,7 @@ margin: 2px;
 body
   {
     overflow-x: hidden;
-  background-color: #FDB81E;
+  background-color: #F9F8F6;
 }
 
 .my-iframe
