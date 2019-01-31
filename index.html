@@ -13,6 +13,8 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="app.js">
+
+    
   <!-- </head> -->
   
 </head>
@@ -22,17 +24,17 @@
   <nav class="navbar navbar-expand-lg navbar-light justify-content-left sky">
     <div class="navbar full-width">
       <img src="images/MR_1.png" alt="">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      <button class="navbar-toggler" id="ham-btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon nav-ham"></span>
       </button>
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav nav-size">
-        <a class="nav-item nav-link active" href="#">Welcome<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">Work</a>
-        <a class="nav-item nav-link active" href="#">About</a>
-        <a class="nav-item nav-link active" href="#">Contact me</a>
+        <a class="nav-item nav-link my-link" href="#">Welcome<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link my-link" href="#">Work</a>
+        <a class="nav-item nav-link my-link" href="#">About</a>
+        <a class="nav-item nav-link my-link" href="#">Contact me</a>
       </div>
     </div>
   </nav>
@@ -41,13 +43,39 @@
 
   <!-- To create a Jumbotron  -->
 
-  <div class="jumbotron">
+
+  
+
+  <div class="jumbotron my-jumbo">
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 my-carousel" src="images/ux-carousel1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 my-carousel" src="images/ux-carousel2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 my-carousel" src="images/ux-carousel3.jpg" alt="Third slide">
+
+              
+            </div>
+          </div>
+        </div>
     <h1 class="display-4 jumbo-align">Welcome to Meera's portfolio!</h1>
     <p class="lead jumbo-align">Hi, My name is Meera Ramachandran.  I was born and raised in Chennai, southern India.  I have a Bachelors degree in Mathematics.  I moved to the USA 20 years ago to join my husband and dedicated my time to raise my family.  Last ten years I have been working as a Business Consultant for pharmaceutical companies. Thank you! for taking your time to view my Portfolio. Hope you like it!</p>
     <!-- <hr class="my-4"> -->
     <p class="jumbo-align"> I like to cook, travel, reading and enjoy to watch movies....</p>
     <div class="button-align">
+         
       <a class="btn btn-primary my-btn" href="#" role="button">Learn more</a>
+      
+         
+        </div>
+     
+</div>
+     
     </div>
   </div>
   <!-- To create a h1 -->
@@ -78,6 +106,8 @@
             platform benefits all its stakeholders, including hosts, guests, employees and the communities in which it
             operates.</p>
           <p class="card-text my-text">...</p>
+
+         
           <a href="#" class="btn btn-primary my-btn">View my case study</a>
         </div>
       </div>
@@ -150,10 +180,8 @@
     <p class="jumbo-align">Please click on the button below to connect through LinkedIn.com. Thank You for taking time
       to view my portfolio</p>
     <div class="button-align">
-      <!-- <a class="btn btn-primary my-btn" href="#" role="button">Let's LinkedIn</a> -->
-      <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
-      <a class="btn btn-primary my-btn" href="<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script><Let's LinkedIn</a>
-    </div>
+      <a class="btn btn-primary my-btn" href="#" role="button">Let's LinkedIn</a>
+       </div>
   </div>
 
   <!-- To create comments modal -->
