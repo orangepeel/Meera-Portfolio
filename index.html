@@ -12,10 +12,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dist/hamburgers.css" >
+    <link rel="stylesheet" href="hamburgers-master/dist/hamburgers.css">
     <link rel="stylesheet" href="app.js">
-
-    
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
   <!-- </head> -->
   
 </head>
@@ -24,21 +30,26 @@
   <!-- To create a Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light justify-content-left sky">
     <div class="navbar full-width">
-      <img src="images/MR_1.png" alt="">
-
-      
-      <!-- <button class="hamburger hamburger--collapse is-active" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button> -->
-      <!-- <button class="navbar-toggler hamburger hamburger--collapse is-active" id="ham-btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" -->
-        button class="hamburger hamburger--collapse is-active" id="ham-btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      <img src="images/MR_3.png" alt="">
+        <button class="navbar-toggler" id="ham-btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon nav-ham"></span>
+        
+
+        
+        <div class="nav-ham--3dx is-active" type="button">
+            <div class="ham-btn">
+              <div class="nav-ham-inner">
+                </div>
+            </div>
+          </div>
+
       </button>
     </div>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+
+    <div class="ham-btn nav-ham--3dx justify-content-end" id="navbarNavAltMarkup"> -->
+    <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> -->
+        
       <div class="navbar-nav nav-size">
         <a class="nav-item nav-link my-link" href="#">Welcome<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link my-link" href="#">Work</a>
@@ -48,23 +59,9 @@
     </div>
   </nav>
 
-  <!-- <button class="hamburger" type="button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button>  
-  <button class="hamburger hamburger--collapse is-active" type="button">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
-  </button> -->
-
   
 
   <!-- To create a Jumbotron  -->
-
-
-  
 
   <div class="jumbotron my-jumbo">
 
@@ -83,14 +80,14 @@
             </div>
           </div>
         </div>
-    <h1 class="display-4 my-header jumbo-align">Welcome to Meera's portfolio!</h1>
-    <p class="lead jumbo-align">Hi, My name is Meera Ramachandran.  I was born and raised in Chennai, southern India.  I have a Bachelors degree in Mathematics.  I moved to the USA 20 years ago to join my husband and dedicated my time to raise my family.  Last ten years I have been working as a Business Consultant for pharmaceutical companies. Thank you! for taking your time to view my Portfolio. Hope you like it!</p>
+    <h1 class="display-4 my-header jumbo-head">Meera Ramachandran- UX/UI designer</h1>
+    <p class="jumbo-align">Hi, My name is Meera Ramachandran.  I was born and raised in Chennai, southern India.  I have a Bachelors degree in Mathematics.  I moved to the USA 20 years ago to join my husband and dedicated my time to raise my family.  Last ten years I have been working as a Business Consultant for pharmaceutical companies. Thank you! for taking your time to view my Portfolio. Hope you like it!</p>
     <!-- <hr class="my-4"> -->
     <p class="jumbo-align"> I like to cook, travel, reading and enjoy to watch movies....</p>
     <div class="button-align">
          
-      <a class="btn btn-primary my-btn" href="#" role="button">Learn more</a>
-      
+      <!-- <a class="btn btn-primary my-btn" href="#" role="button">Learn more</a> -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#targetModal">Learn More</button>
          
         </div>
      
@@ -100,7 +97,7 @@
   </div>
   <!-- To create a h1 -->
 
-  <h1 class="jumbo-align">Project Experience</h1>
+  <h1 class="body-head1">Project Experience</h1>
 
   <!-- To create Project 1 cards -->
 
@@ -115,7 +112,7 @@
         <!-- <img src="images/Screen Shot 2019-01-24 at 1.24.32 PM.png" class="card-img-top" alt="..."> -->
         <div class="card-body">
 
-          <h5 class="card-title">My first "Airbnb Travel Planner" app project</h5>
+          <h5 class="card-title body-head2">"Airbnb Travel Planner" app project</h5>
           <p class="card-text my-text">Founded in 2008, Airbnb’s mission is to create a world where people can belong
             through healthy travel that is local, authentic, diverse, inclusive and sustainable. Airbnb uniquely
             leverages technology to economically empower millions of people around the world to unlock and monetize
@@ -141,7 +138,7 @@
       </div>
         <!-- <img src="images/Screen Shot 2019-01-24 at 1.24.05 PM.png" class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <h5 class="card-title">"The Aisle" travel app project</h5>
+          <h5 class="card-title body-head2">"The Aisle" travel app project</h5>
           <p class="card-text my-text">"Aisle" makes it easier than ever to plan and organize your trips. It
             automatically maps out a half day or a full day with suggestions for things to see and do. Don’t like what
             you see? Tap the "magic wand" to see more nearby sights. Each tap of the wand gives you a fresh set of
@@ -160,7 +157,7 @@
             </div>
         <!-- <img src="images/Screen Shot 2019-01-24 at 1.39.48 PM.png" class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <h5 class="card-title">Department of Interior RWD project</h5>
+          <h5 class="card-title body-head2">Department of Interior RWD project</h5>
           <p class="card-text my-text">The Department of the Interior (DOI) conserves and manages the Nation’s natural
             resources and cultural heritage for the benefit and enjoyment of the American people, provides scientific
             and other information about natural resources and natural hazards to address societal challenges and create
@@ -175,7 +172,7 @@
       <div class="card my-card">
         <img width="438" height="930" src="images/path1.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">P.A.T.H Project</h5>
+          <h5 class="card-title body-head2">P.A.T.H Project</h5>
           <p class="card-text my-text">Our mission is to end homelessness for individuals, families, and communities.
             PATH envisions a world where every person has a home. Our values include creative collaborations, strategic
             leadership, empowerment for all, and passionate commitment. It all started with a letter written by Claire
@@ -192,7 +189,7 @@
 
     <img src="images/meera pic.png" class="footer-image" alt="">
 
-    <h3 class="jumbo-align">About/Contact</h3>
+    <h3 class="body-head1">About/Contact</h3>
     <p class="jumbo-align">Presently, I live in Southern California. My past experiences as a Business Analyst for Healthcare
       sector gave me the opportunity to implement software systems and closely work with the vendors. Currently, wanted
       to change my career to UX/UI design. If you have any questions, please free to reach me at <a class="nav-item active my-email"
@@ -201,23 +198,84 @@
       to view my portfolio</p>
     <div class="button-align">
       <a class="btn btn-primary my-btn" href="https://www.linkedin.com/in/meera-r-a0a0bb10/" role="button" target="_blank">Let's LinkedIn</a>
-       </div>
+      <button type="button" class="btn btn-primary my-btn" data-toggle="modal" data-target="#feedbackModal" id="recipient" data-whatever="@gmail.com">Feedback/Comments</button>
+      
+      
+    
+    </div>
   </div>
 
   <!-- To create comments modal -->
+  
+  <div class="modal fade" id="targetModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+               </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- To create feedback modal -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Feedback/Comments</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- <form> -->
+                  <form method="post" action="https://script.google.com/macros/s/AKfycbwLyPCH6KrWGi-tcVGdgMaLP2036Xr9i6cnVCZySw/exec">
+
+                      
+                  <div class="form-group">
+                      <label for="sender-name" class="col-form-label">Sender Email:</label>
+                      <input type="text" class="form-control" id="sender-name">
+                    </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Recipient Email:</label>
+                  <input value="meeraniranjani@gmail.com" type="text" class="form-control" id="recipient-name"></input>
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
 
 
 
-
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
 
     
 </body>
