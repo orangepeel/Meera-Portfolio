@@ -21,3 +21,8 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
     
   })
+  var formData = new FormData();
+
+formData.append("Sender email", "test@example.com");
+formData.append("Recipient email", "test@example.com"); 
+formData.append("Message", "Hello"); 
