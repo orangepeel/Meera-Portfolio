@@ -1,4 +1,5 @@
-response.addHeader("Access-Control-Allow-Origin", "*");
+response.addHeader("Access-Control-Allow-Origin", "https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec");
+Access-Control-Allow-Origin; https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec
 
 
 document.getElementById("toggle").addEventListener("click", dosomething);
