@@ -1,3 +1,6 @@
+response.addHeader("Access-Control-Allow-Origin", "*");
+
+
 document.getElementById("toggle").addEventListener("click", dosomething);
 function dosomething() {
     if (document.getElementById("board").getAttribute("state")=== "visible"){
@@ -23,4 +26,3 @@ $('#exampleModal').on('show.bs.modal', function (event) {
   })
   
 
-response.addHeader("Access-Control-Allow-Origin", "*");
