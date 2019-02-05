@@ -1,16 +1,16 @@
-response.addHeader("Access-Control-Allow-Origin", "https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec");
-Access-Control-Allow-Origin; https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec
+// response.addHeader("Access-Control-Allow-Origin", "https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec");
+// Access-Control-Allow-Origin; https://script.google.com/macros/s/AKfycbwq8rLGvQOVhNfROC9bjNoV_26OLxqz5Obpkdxf7cScuLjuZTPo/exec
 
 
-document.getElementById("toggle").addEventListener("click", dosomething);
-function dosomething() {
-    if (document.getElementById("board").getAttribute("state")=== "visible"){
-           document.getElementById("board").style.display="none"
-           document.getElementById("board").setAttribute("state", "hidden")
-    } else {
-        document.getElementById("board").style.display="block"
-        document.getElementById("board").setAttribute("state", "visible")
-    }
+// document.getElementById("toggle").addEventListener("click", dosomething);
+// function dosomething() {
+//     if (document.getElementById("board").getAttribute("state")=== "visible"){
+//            document.getElementById("board").style.display="none"
+//            document.getElementById("board").setAttribute("state", "hidden")
+//     } else {
+//         document.getElementById("board").style.display="block"
+//         document.getElementById("board").setAttribute("state", "visible")
+//     }
 
    
 }
@@ -25,5 +25,9 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
     
   })
+  
+document.getElementById("footer-image").addEventListener("click",dosomething);
+
+
   
 
