@@ -16,6 +16,7 @@
 }
 
 
+
   .my-carousel
   {
     /* background-color: #FFCC00 !important; */
@@ -37,6 +38,7 @@
 {
      width:100%;
   height: 70px;
+  
    
 }
 .nav-con {
@@ -52,6 +54,7 @@
   position: fixed;
   font-size: 1em;
   white-space: nowrap;
+  
  }
     
 
@@ -115,20 +118,21 @@
   background-color: #F1693C;
 }
 
-.sky
+/* .sky
 {
   
   
  background-color: #F9F8F6;
 
  
- }
+ } */
  
  #ham-btn
  {
    border-width: 1px;
    border-style: solid;
-   border-color: #F1693C;
+   border-color: transparent;
+   /* border-color: #F1693C; */
    padding: 0;
    border-radius: .25rem; 
    }
@@ -141,13 +145,7 @@
   
 }
 
-  .nav-size
-{
   
-  font-size: 1em;
-  white-space: nowrap; 
- }
-
    .my_link
    {
    background-color: #F1693C;
@@ -180,7 +178,15 @@
      color:#F1693C;
      font-family: 'Roboto Slab', serif;
      text-align: center;
-   }
+     -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     transition: all 0.5s;
+     /* cursor: pointer;
+     -webkit-transform: skew(45deg, 45deg);
+      -moz-transform: skew(45deg, 45deg);
+      transform: skew(45deg, 45deg); */
+    }
+
 
    .body-head2
    {
@@ -216,10 +222,8 @@
 
 .column
 {
-  /* display: left */
-  display: right;
-  
-  
+  display: left;
+    
 }
 .row
 {
@@ -247,7 +251,7 @@ margin: 2px;
 
 body
   {
-    overflow-x: hidden;
+  overflow-x: hidden; 
   background-color: #F9F8F6;
 }
 
@@ -258,10 +262,10 @@ body
   
 }
 /* Media query starts */
-@media screen and (max-width: 980px)
+@media screen and (max-width: 640px)
  {
   body {
-    display: block;
+    display: block; */
     padding: 0!important;
     position: static; 
     text-align: center;
@@ -288,6 +292,7 @@ div.iframe-container
 {
   height: 528px;
 }
+
 .jumbo-head{
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
@@ -327,14 +332,6 @@ div.iframe-container
   /* Media query ends */
 
 
-.hl {
-  position:absolute;
-  transform: rotate(90deg); 
-      border-left: 3px #F1693C;
-      height: 500px;
-      top: -10%;
-      left: 50%;
-    }
 
     .jumbo-align{
             
@@ -442,3 +439,27 @@ div.iframe-container
       line-height: 3px;
       width:600px;
          }
+
+         #name:hover {
+          font-size: 2.5em;
+          color: #333333;
+          text-transform: lowercase;
+        }
+        
+      #name:hover:before,
+        #name:hover:after {
+          font-style: italic;
+          font-size: 0.5em;
+          color: #333333;
+        }
+        
+        #name:hover:before {
+          content:"it's me ";
+        }
+        
+        #name:hover:after {
+          content: " - UX/UI designer";
+        }
+
+        
+   
